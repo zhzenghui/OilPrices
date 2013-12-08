@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7031057167F2CCA00EA8908 /* OilDetailViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = D7031055167F2CCA00EA8908 /* OilDetailViewcontroller.m */; };
+		D7031058167F2CCA00EA8908 /* OilDetailViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7031056167F2CCA00EA8908 /* OilDetailViewcontroller.xib */; };
+		D781A910167EF4CE0074016B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D781A90F167EF4CE0074016B /* UIKit.framework */; };
+		D781A912167EF4CE0074016B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D781A911167EF4CE0074016B /* Foundation.framework */; };
+		D781A914167EF4CE0074016B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D781A913167EF4CE0074016B /* CoreGraphics.framework */; };
+		D781A91A167EF4CE0074016B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D781A918167EF4CE0074016B /* InfoPlist.strings */; };
+		D781A91C167EF4CE0074016B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D781A91B167EF4CE0074016B /* main.m */; };
+		D781A920167EF4CE0074016B /* ADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D781A91F167EF4CE0074016B /* ADAppDelegate.m */; };
+		D781A923167EF4CE0074016B /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D781A922167EF4CE0074016B /* ADViewController.m */; };
+		D781A926167EF4CE0074016B /* ADViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D781A924167EF4CE0074016B /* ADViewController_iPhone.xib */; };
+		D781A929167EF4CF0074016B /* ADViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D781A927167EF4CF0074016B /* ADViewController_iPad.xib */; };
+		D781A931167EF5100074016B /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D781A930167EF5100074016B /* JSONKit.m */; };
+		D781A938167EF6C50074016B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D781A937167EF6C50074016B /* libxml2.dylib */; };
+		D781A93F167EF6DC0074016B /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = D781A93A167EF6DC0074016B /* TFHpple.m */; };
+		D781A940167EF6DC0074016B /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D781A93C167EF6DC0074016B /* TFHppleElement.m */; };
+		D781A941167EF6DC0074016B /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D781A93E167EF6DC0074016B /* XPathQuery.m */; };
+		D781A946167EF74A0074016B /* Tutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = D781A943167EF74A0074016B /* Tutorial.m */; };
+		D781A947167EF74A0074016B /* Contributor.m in Sources */ = {isa = PBXBuildFile; fileRef = D781A945167EF74A0074016B /* Contributor.m */; };
+		D781A950167F10440074016B /* OilPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = D781A94F167F10440074016B /* OilPrice.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7031054167F2CCA00EA8908 /* OilDetailViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OilDetailViewcontroller.h; sourceTree = "<group>"; };
+		D7031055167F2CCA00EA8908 /* OilDetailViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OilDetailViewcontroller.m; sourceTree = "<group>"; };
+		D7031056167F2CCA00EA8908 /* OilDetailViewcontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OilDetailViewcontroller.xib; sourceTree = "<group>"; };
+		D781A90B167EF4CE0074016B /* OilPrices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OilPrices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D781A90F167EF4CE0074016B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D781A911167EF4CE0074016B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D781A913167EF4CE0074016B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D781A917167EF4CE0074016B /* OilPrices-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OilPrices-Info.plist"; sourceTree = "<group>"; };
+		D781A919167EF4CE0074016B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D781A91B167EF4CE0074016B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D781A91D167EF4CE0074016B /* OilPrices-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OilPrices-Prefix.pch"; sourceTree = "<group>"; };
+		D781A91E167EF4CE0074016B /* ADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADAppDelegate.h; sourceTree = "<group>"; };
+		D781A91F167EF4CE0074016B /* ADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADAppDelegate.m; sourceTree = "<group>"; };
+		D781A921167EF4CE0074016B /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
+		D781A922167EF4CE0074016B /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
+		D781A925167EF4CE0074016B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADViewController_iPhone.xib; sourceTree = "<group>"; };
+		D781A928167EF4CF0074016B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADViewController_iPad.xib; sourceTree = "<group>"; };
+		D781A92F167EF5100074016B /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		D781A930167EF5100074016B /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		D781A937167EF6C50074016B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		D781A939167EF6DC0074016B /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		D781A93A167EF6DC0074016B /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		D781A93B167EF6DC0074016B /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		D781A93C167EF6DC0074016B /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		D781A93D167EF6DC0074016B /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		D781A93E167EF6DC0074016B /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		D781A942167EF74A0074016B /* Tutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial.h; sourceTree = "<group>"; };
+		D781A943167EF74A0074016B /* Tutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tutorial.m; sourceTree = "<group>"; };
+		D781A944167EF74A0074016B /* Contributor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contributor.h; sourceTree = "<group>"; };
+		D781A945167EF74A0074016B /* Contributor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contributor.m; sourceTree = "<group>"; };
+		D781A94E167F10440074016B /* OilPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OilPrice.h; sourceTree = "<group>"; };
+		D781A94F167F10440074016B /* OilPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OilPrice.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D781A908167EF4CE0074016B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D781A938167EF6C50074016B /* libxml2.dylib in Frameworks */,
+				D781A910167EF4CE0074016B /* UIKit.framework in Frameworks */,
+				D781A912167EF4CE0074016B /* Foundation.framework in Frameworks */,
+				D781A914167EF4CE0074016B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D781A900167EF4CE0074016B = {
+			isa = PBXGroup;
+			children = (
+				D781A937167EF6C50074016B /* libxml2.dylib */,
+				D781A915167EF4CE0074016B /* OilPrices */,
+				D781A90E167EF4CE0074016B /* Frameworks */,
+				D781A90C167EF4CE0074016B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D781A90C167EF4CE0074016B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D781A90B167EF4CE0074016B /* OilPrices.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D781A90E167EF4CE0074016B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D781A90F167EF4CE0074016B /* UIKit.framework */,
+				D781A911167EF4CE0074016B /* Foundation.framework */,
+				D781A913167EF4CE0074016B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D781A915167EF4CE0074016B /* OilPrices */ = {
+			isa = PBXGroup;
+			children = (
+				D781A94C167F10140074016B /* Model */,
+				D781A94D167F10200074016B /* TFHpple */,
+				D781A91E167EF4CE0074016B /* ADAppDelegate.h */,
+				D781A91F167EF4CE0074016B /* ADAppDelegate.m */,
+				D781A921167EF4CE0074016B /* ADViewController.h */,
+				D781A922167EF4CE0074016B /* ADViewController.m */,
+				D7031054167F2CCA00EA8908 /* OilDetailViewcontroller.h */,
+				D7031055167F2CCA00EA8908 /* OilDetailViewcontroller.m */,
+				D7031056167F2CCA00EA8908 /* OilDetailViewcontroller.xib */,
+				D781A92F167EF5100074016B /* JSONKit.h */,
+				D781A930167EF5100074016B /* JSONKit.m */,
+				D781A924167EF4CE0074016B /* ADViewController_iPhone.xib */,
+				D781A927167EF4CF0074016B /* ADViewController_iPad.xib */,
+				D781A916167EF4CE0074016B /* Supporting Files */,
+			);
+			path = OilPrices;
+			sourceTree = "<group>";
+		};
+		D781A916167EF4CE0074016B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D781A917167EF4CE0074016B /* OilPrices-Info.plist */,
+				D781A918167EF4CE0074016B /* InfoPlist.strings */,
+				D781A91B167EF4CE0074016B /* main.m */,
+				D781A91D167EF4CE0074016B /* OilPrices-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D781A94C167F10140074016B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D781A942167EF74A0074016B /* Tutorial.h */,
+				D781A943167EF74A0074016B /* Tutorial.m */,
+				D781A944167EF74A0074016B /* Contributor.h */,
+				D781A945167EF74A0074016B /* Contributor.m */,
+				D781A94E167F10440074016B /* OilPrice.h */,
+				D781A94F167F10440074016B /* OilPrice.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D781A94D167F10200074016B /* TFHpple */ = {
+			isa = PBXGroup;
+			children = (
+				D781A939167EF6DC0074016B /* TFHpple.h */,
+				D781A93A167EF6DC0074016B /* TFHpple.m */,
+				D781A93B167EF6DC0074016B /* TFHppleElement.h */,
+				D781A93C167EF6DC0074016B /* TFHppleElement.m */,
+				D781A93D167EF6DC0074016B /* XPathQuery.h */,
+				D781A93E167EF6DC0074016B /* XPathQuery.m */,
+			);
+			name = TFHpple;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D781A90A167EF4CE0074016B /* OilPrices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D781A92C167EF4CF0074016B /* Build configuration list for PBXNativeTarget "OilPrices" */;
+			buildPhases = (
+				D781A907167EF4CE0074016B /* Sources */,
+				D781A908167EF4CE0074016B /* Frameworks */,
+				D781A909167EF4CE0074016B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OilPrices;
+			productName = OilPrices;
+			productReference = D781A90B167EF4CE0074016B /* OilPrices.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D781A902167EF4CE0074016B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D781A905167EF4CE0074016B /* Build configuration list for PBXProject "OilPrices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D781A900167EF4CE0074016B;
+			productRefGroup = D781A90C167EF4CE0074016B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D781A90A167EF4CE0074016B /* OilPrices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D781A909167EF4CE0074016B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D781A91A167EF4CE0074016B /* InfoPlist.strings in Resources */,
+				D781A926167EF4CE0074016B /* ADViewController_iPhone.xib in Resources */,
+				D781A929167EF4CF0074016B /* ADViewController_iPad.xib in Resources */,
+				D7031058167F2CCA00EA8908 /* OilDetailViewcontroller.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D781A907167EF4CE0074016B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D781A91C167EF4CE0074016B /* main.m in Sources */,
+				D781A920167EF4CE0074016B /* ADAppDelegate.m in Sources */,
+				D781A923167EF4CE0074016B /* ADViewController.m in Sources */,
+				D781A931167EF5100074016B /* JSONKit.m in Sources */,
+				D781A93F167EF6DC0074016B /* TFHpple.m in Sources */,
+				D781A940167EF6DC0074016B /* TFHppleElement.m in Sources */,
+				D781A941167EF6DC0074016B /* XPathQuery.m in Sources */,
+				D781A946167EF74A0074016B /* Tutorial.m in Sources */,
+				D781A947167EF74A0074016B /* Contributor.m in Sources */,
+				D781A950167F10440074016B /* OilPrice.m in Sources */,
+				D7031057167F2CCA00EA8908 /* OilDetailViewcontroller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D781A918167EF4CE0074016B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D781A919167EF4CE0074016B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D781A924167EF4CE0074016B /* ADViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D781A925167EF4CE0074016B /* en */,
+			);
+			name = ADViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		D781A927167EF4CF0074016B /* ADViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D781A928167EF4CF0074016B /* en */,
+			);
+			name = ADViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D781A92A167EF4CF0074016B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D781A92B167EF4CF0074016B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D781A92D167EF4CF0074016B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OilPrices/OilPrices-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					HEADER_SEARCH_PATHS,
+					"=",
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "OilPrices/OilPrices-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D781A92E167EF4CF0074016B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OilPrices/OilPrices-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					HEADER_SEARCH_PATHS,
+					"=",
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "OilPrices/OilPrices-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D781A905167EF4CE0074016B /* Build configuration list for PBXProject "OilPrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D781A92A167EF4CF0074016B /* Debug */,
+				D781A92B167EF4CF0074016B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D781A92C167EF4CF0074016B /* Build configuration list for PBXNativeTarget "OilPrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D781A92D167EF4CF0074016B /* Debug */,
+				D781A92E167EF4CF0074016B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D781A902167EF4CE0074016B /* Project object */;
+}
